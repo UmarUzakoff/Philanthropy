@@ -1,0 +1,181 @@
+.Info{
+    background-color: #f4eded;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    .info1{
+        max-width: 340px;
+        margin-bottom: 220px;
+    }
+
+    .info2{
+        
+        h6{
+            font-size: 20px;
+            line-height: 22px;
+            color: #090909;
+            max-width: 119px;
+            margin: 0;
+        }
+
+        ul{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+
+            li:hover{
+                opacity: 0.5;
+                cursor: pointer;
+                text-decoration:underline;
+            }
+        }
+    }
+
+    .info3{
+        margin-bottom: 15px;
+
+        h6{
+            font-size: 20px;
+            line-height: 22px;
+            color: #090909;
+            max-width: 110px;
+            margin: 0;
+        }
+
+        ul{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+
+            li:hover{
+                opacity: 0.5;
+                cursor: pointer;
+                text-decoration:underline;
+            }
+        }
+    }
+    .info4{
+        background: rgb(255,162,0);
+        background: radial-gradient(circle, rgba(255,162,0,1) 0%, rgba(255,153,0,1) 100%);
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding: 40px 30px;
+
+        h3{
+            margin: 0;
+            padding-top: 0;
+            max-width: 280px;
+            font-family: 'Roboto';
+            font-size: 24px;
+            line-height: 34px;
+            color: #090909;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 28px;
+
+            .btn1{
+                background: #090909;
+                border-radius: 10px;
+                padding: 20px 90px;
+                border: none;
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+            .btn1:hover{
+                    outline-color: transparent;
+                    outline-style: solid;
+                    box-shadow: 0 0 0 1px rgb(46, 46, 46);
+                    transition: 0.7s;
+                    box-shadow: 
+                    0.2em 0.2em 0 0 gray,
+                    inset 0.2em 0.2em 0 0 gray;
+            }
+
+            .btn2{
+                background: #FFFFFF;
+                border: 1px solid #F0ECE8;
+                box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.04);
+                border-radius: 10px;
+                padding: 20px 65px;
+                border: none;
+                font-size: 18px;
+                text-align: center;
+                color: #090909;
+                font-weight: 700;
+                cursor: pointer; 
+            }
+
+            .btn2:hover{
+                outline-color: transparent;
+                outline-style: solid;
+                box-shadow: 0 0 0 1px #6f6e6d;
+                opacity: 0.8;
+                transition: 0.7s;
+                box-shadow: 
+                0.2em 0.2em 0 0 gray,
+                inset 0.2em 0.2em 0 0 gray;
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .Info{
+
+        .info4{
+            display: none;
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .Info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        gap: 20px;
+        padding-top: 20px;
+
+       .info1{
+        margin-bottom: 0;
+       }
+
+       .info2{
+        margin-right: 50px;
+       }
+
+       .info3 , .info2{
+            text-align: start;
+
+            h6{
+                max-width: none;
+            }
+
+            ul{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+       }
+    }
+}

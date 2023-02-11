@@ -1,0 +1,269 @@
+.Statistics{
+    background-color: #f4eded;
+    padding: 134px 160px 5px 110px;
+    width: 100%;
+
+    div{
+  
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 140px;
+
+            li{
+                color: #090909;
+                font-family: 'Roboto';
+                font-size: 60px;
+                line-height: 80px;
+                text-align: center;
+
+                span{
+                    font-size: 60px;
+                    line-height: 80px;
+                    text-align: center;
+                    color: #FF9C08;
+                }
+
+                p{
+                    margin-top: 0;
+                    width: 205px;
+                    font-size: 20px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: #6E6E6E;
+                    font-family: 'DM Sans';
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .Statistics{
+    
+        div{
+      
+            ul{
+                gap: 80px;
+    
+                li{
+                    font-size: 50px;
+                    line-height: 70px;
+    
+                    span{
+                        font-size: 50px;
+                        line-height: 70px;
+                    }
+    
+                    p{
+                        width: 200px;
+                        font-size: 17px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1075px) {
+    .Statistics{
+    
+        div{
+      
+            ul{
+                gap: 60px;
+    
+                li{
+                    font-size: 45px;
+                    line-height: 65px;
+    
+                    span{
+                        font-size: 45px;
+                        line-height: 65px;
+                    }
+    
+                    p{
+                        width: 190px;
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 975px) {
+    .Statistics{
+    
+        div{
+      
+            ul{
+                gap: 40px;
+    
+                li{
+                    font-size: 40px;
+                    line-height: 60px;
+    
+                    span{
+                        font-size: 40px;
+                        line-height: 60px;
+                    }
+    
+                    p{
+                        width: 180px;
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .Statistics{
+        padding: 100px 160px 73px 110px;
+        div{
+      
+            ul{
+                gap: 20px;
+    
+                li{
+                    font-size: 35px;
+                    line-height: 50px;
+    
+                    span{
+                        font-size: 35px;
+                        line-height: 50px;
+                    }
+    
+                    p{
+                        width: 180px;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .Statistics{
+        padding: 100px 160px 73px 110px;
+        div{
+      
+            ul{
+                gap: 1px;
+    
+                li{
+                    font-size: 30px;
+                    line-height: 50px;
+    
+                    span{
+                        font-size: 30px;
+                        line-height: 50px;
+                    }
+    
+                    p{
+                        width: 170px;
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .Statistics{
+        padding: 50px 160px 20px 110px;
+        div{
+      
+            ul{
+                gap: 1px;
+    
+                li{
+                    font-size: 30px;
+                    line-height: 50px;
+    
+                    span{
+                        font-size: 30px;
+                        line-height: 50px;
+                    }
+    
+                    p{
+                        width: 140px;
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .Statistics{
+        padding: 30px 135px 20px 110px;
+        div{
+      
+            ul{
+                gap: 1px;
+    
+                li{
+                    font-size: 25px;
+                    line-height: 40px;
+    
+                    span{
+                        font-size: 25px;
+                        line-height: 40px;
+                    }
+    
+                    p{
+                        width: 120px;
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .Statistics{
+        padding: 30px 135px 20px 110px;
+        border-bottom: #090909;
+
+        div{
+      
+            ul{
+                gap: 30px;
+                flex-direction: column;
+    
+                li{
+                    font-size: 40px;
+                    line-height: 40px;
+    
+                    span{
+                        font-size: 40px;
+                        line-height: 40px;
+                    }
+    
+                    p{
+                        margin-top: 10px;
+                        width: 120px;
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
